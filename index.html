@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Weather App</title>
+
+
+</head>
+
+<body>
+    <div class="home">
+        <div class="img-cover">
+            <!-- start navbar -->
+            <div class="nav-layer">
+                <nav class="navbar navbar-expand-lg stickys-top">
+                    <div class="container-fluid container">
+                        <div class="logo">
+                            <img src="imgs/cloudy.png" alt="" class="img-logo me-3">
+                            <div class="logo-type">
+                                <h1 class="">Weather</h1>
+                                <span class="site-description">Discover the weather, wherever you are</span>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item p-3">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item p-3">
+                                    <a class="nav-link" href="#">News</a>
+                                </li>
+                                <li class="nav-item p-3">
+                                    <a class="nav-link" href="#">Live Cameras</a>
+                                </li>
+                                <li class="nav-item p-3">
+                                    <a class="nav-link" href="#">Photos</a>
+                                </li>
+                                <li class="nav-item p-3">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <main>
+                <div class=" search-container w-75 d-flex justify-content-lg-between m-auto">
+                    <div class="search"><input class="form form-control rounded-4 my-2" id="searchInp" type="search"
+                            placeholder="Enter city for weather updates . . .">
+                        <div id="weatherAlert" class="alert alert-danger d-none" role="alert">
+                            <strong>Oops!</strong> We couldn't fetch the weather data. Please double-check your location
+                            or try again later.
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- Cards Container -->
+                <div class="container">
+                    <div id="cards" class="row gy-3">
+                        <!--cards will be added here from API JS -->
+                    </div>
+                </div>
+            </main>
+
+            <footer id="contact">
+                <div class="mail container search-container w-75 d-flex justify-content-lg-between m-auto">
+                    <div class="mail-input">
+                        <input class="form form-control rounded-4 my-2" type="search"
+                            placeholder="Enter Your Email To Subscribe ..">
+                    </div>
+                    <div class="mail-btn">
+                        <button class="btn btn-outline-secondary rounded-4 my-2 px-4">Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer-logos py-3 container-fluid">
+                    <div class="copyrights">
+                        <p> &copy Copyright 2024. Designed by Mohamed Behairy. All rights reserved</p>
+                    </div>
+                    <div class="icons">
+                        <div
+                            class="icon border border-0 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-facebook-f fa-lg"></i>
+                        </div>
+                        <div
+                            class="icon border border-0 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                        </div>
+                        <div
+                            class="icon border border-0 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <div
+                            class="icon border border-0 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+
+        </div>
+
+
+        <script src="java/bootstrap.bundle.js"></script>
+        <script src="java/script.js" type="module"></script>
+
+</body>
+
+</html>

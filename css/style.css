@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  /* height: 150vh; */
+  /* background-color: palevioletred; */
+}
+
+/* img-layer */
+.img-cover {
+  background-image: url(/imgs/cloudy\ sunset\ sky.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* navbar */
+.nav-layer {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.849),
+    rgba(0, 0, 0, 0.462),
+    rgba(0, 0, 0, 0)
+  );
+}
+nav .logo {
+  cursor: pointer;
+}
+nav .logo img {
+  width: 60px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+nav .logo-type {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+.navbar .logo-type h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.navbar .logo-type span {
+  font-size: 15px;
+  color: #ffffffb9;
+}
+.navbar .navbar-collapse ul li a {
+  color: #fff;
+  transition: all 0.2s;
+}
+.navbar .navbar-collapse ul li a:hover {
+  /* color: slategray; */
+  color: #49a4ff;
+}
+
+/* Search Container */
+.search-container .search {
+  margin: 100px 0px;
+}
+main .search {
+  width: 100% !important;
+}
+
+/* Cards Container Styles */
+.card {
+  background: linear-gradient(to bottom, #000000ca, #000000a8);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* border-bottom: none; */
+  padding: 20px 20px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header .day {
+  font-weight:500 ;
+  
+}
+
+.card-header .date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body .location {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.card-body .degree {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+  font-family: Times, serif;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.card-body img {
+  margin: 5px;
+  /* width: 90px;
+  height: 90px; */
+}
+
+.card-body .card-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #49a4ff;
+
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.weather-details span {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 5px;
+}
+
+.weather-details img {
+  /* width: 20px;
+  height: 20px; */
+}
+
+/* footer */
+footer {
+  background-color: #f1f0f0;
+  width: 100%;
+}
+footer .mail {
+  /* padding: 50px; */
+}
+input {
+  /* border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 75%;
+  height: 40px;
+  padding: 10px 10px; */
+}
+
+footer .mail .mail-input {
+  width: 85% !important;
+  margin: 50px 0px;
+}
+footer .mail .mail-btn {
+  margin: 50px 0px 70px 0px;
+}
+footer .footer-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+footer .icons {
+  display: flex;
+  gap: 15px;
+}
+footer .copyrights {
+  color: slategray;
+}
+footer .icons .icon {
+  padding: 0px 10px;
+  width: 40px;
+  height: 40px;
+  background-color: slategray;
+  color: white;
+  transition: all 0.5s;
+}
+footer .icons .icon:hover {
+  background-color: rgb(14, 23, 33);
+}
