@@ -11,7 +11,7 @@ body {
 
 /* img-layer */
 .img-cover {
-  background-image: url(/imgs/bk.jpeg);
+  background-image: url(/imgs/bk\ 2.png);
   background-size: cover;
   background-position: center;
 }
@@ -90,8 +90,7 @@ main .search {
 }
 
 .card-header .day {
-  font-weight:500 ;
-  
+  font-weight: 500;
 }
 
 .card-header .date {
@@ -133,7 +132,6 @@ main .search {
   font-weight: 500;
   margin-top: 10px;
   color: #49a4ff;
-
 }
 
 .weather-details {
