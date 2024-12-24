@@ -11,8 +11,7 @@ body {
 
 /* img-layer */
 .img-cover {
-  /* background-image: url(/imgs/home.png); */
-  background-color: #a3d1ffb8;
+  background-image: url(/imgs/home.png);
   background-size: cover;
   background-position: center;
 }
